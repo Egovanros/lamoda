@@ -1,0 +1,20 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+  width: 800px;
+  margin: 0 auto;
+
+
+  &_wrapper {
+    display: flex;
+    margin-left: 5px;
+  }
+}
+
+.products {
+  margin-left: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}

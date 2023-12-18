@@ -1,0 +1,17 @@
+.inputs{
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    width: 100px;
+    margin: 20px 5px;
+    padding: 3px;
+    &_item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        &_name{
+            font-weight: bold;
+            margin: 0 auto;
+        }
+    }
+}
